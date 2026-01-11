@@ -1,0 +1,31 @@
+.transaction-page {
+  .stat-icon {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 0.75rem;
+  }
+
+  .stat-amount {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .status-chip {
+    gap: 0.35rem;
+    line-height: 1.2;
+  }
+
+  .status-chip svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  table button {
+    color: inherit;
+  }
+
+  .empty-state-icon {
+    color: #94a3b8;
+  }
+}
